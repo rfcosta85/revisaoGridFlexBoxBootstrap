@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <title>Praticando Grid e Flexbox - Bootstrap</title>
 </head>
-<body>   
+<body class="bg-white">   
     
-    <header class="container-fluid bg-white">
+    <header class="container-fluid">
 
         <nav class="navbar navbar-expand-md">
 
@@ -24,21 +24,20 @@
                 <ul class="navbar-nav ">
 
                     <li class="nav-item">
-                        <a href="#" class="nav-link text-dark">Sobre Nós</a>
+                        <a href="#" class="nav-link text-white font-weight-bold">Sobre Nós</a>
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle text-dark" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Cortinas</a>
+                        <a href="#" class="nav-link dropdown-toggle text-white font-weight-bold" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Cortinas</a>
                         <div class="dropdown-menu">
                             <a href="#" class="dropdown-item">Cortina Rolô</a>
                             <a href="#" class="dropdown-item">Cortina Rolô Stillo</a>
-                            <a href="#" class="dropdown-item">Cortina Romana</a>
-                            <a href="#" class="dropdown-item">Cortina Painel</a>
+                            <a href="#" class="dropdown-item">Cortina Romana</a>                            
                         </div>
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle text-dark" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Persianas</a>
+                        <a href="#" class="nav-link dropdown-toggle text-white font-weight-bold" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Persianas</a>
                         <div class="dropdown-menu">
                             <a href="#" class="dropdown-item">Persiana Vertical</a>
                             <a href="#" class="dropdown-item">Persiana Sublime</a>
@@ -50,10 +49,10 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link text-dark">Contato</a>
+                        <a href="#" class="nav-link text-white font-weight-bold">Contato</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link text-dark">Carrinho</a>
+                        <a href="#" class="nav-link text-white font-weight-bold">Carrinho</a>
                     </li>
 
                 </ul>
@@ -96,30 +95,121 @@
             <span class="sr-only">Próximo</span>
           </a>
 
-    </div>
-
+    </div>    
     
-    
-    <!--
     <main class="bg-white mt-3 container">
+
+        <!-- Cortinas -->
+
+        <div class="container">
+            <h1 class="text-dark text-center">Cortinas</h1>
+            <p class="text-dark text-justify">Conheça a linha premium produzida pela amorim, aqui você irá encontrar lindos modelos das tradicionais linhas Rolo e Romana. Modelos ideias para deixar a sua sala como uma aparência incrível!</p>
+        </div>
 
         <div class="container">
             <div class="row">
-                <div class="col-sm bg-primary text-white text-center">
-                    1/3
+                <div class="col-sm mr-3">
+                    
+                    <div class="card" style="width:20rem;">
+                        <img src="https://www.amorimcortinas.com.br/imagens/produtos-cortinas/cortina-rolo.jpg" alt="Cortina Rolo Amorim" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Cortina Rolô</h5>
+                            <p class="card-text">Uns dos modelos mais clássicos de nossa coleção, a cortina rolô agrega preço, estilo e conforto.</p>
+                            <a href="#" class="btn text-white font-weight-bold">Saiba mais</a>
+                        </div>
+                    </div>
+
                 </div>
     
-                <div class="col-sm bg-warning text-white text-center">
-                    2/3
+                <div class="col-sm mr-3">
+                    
+                    <div class="card" style="width:20rem;">
+                        <img src="https://www.amorimcortinas.com.br/imagens/produtos-cortinas/cortina-rolo-stillo.jpg" alt="Cortina Rolo Amorim" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Cortina Rolô Stillo</h5>
+                            <p class="card-text">Produzida com duas faixas de tecido diferentes, torne o seu ambiente mais lúcido e agradável.</p>
+                            <a href="#" class="btn text-white font-weight-bold">Saiba mais</a>
+                        </div>
+                    </div>
+
                 </div>
-    
-                <div class="col-sm bg-danger text-white text-center">3/3</div>
-    
+
+                <div class="col-sm mr-3">
+                    
+                    <div class="card" style="width:20rem;">
+                        <img src="https://www.amorimcortinas.com.br/imagens/produtos-cortinas/cortina-romana.jpg" alt="Cortina Rolo Amorim" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Cortina Romana</h5>
+                            <p class="card-text">Com o seu design arrojado, a Cortina Romana é ideal para decoração de ambiente sofisticados.</p>
+                            <a href="#" class="btn text-white font-weight-bold">Saiba mais</a>
+                        </div>
+                    </div>                    
+
+                </div>              
+                
             </div>
 
-    </main>
-    -->
+        </div>
 
+        <div class="container mt-5">
+            <h1 class="text-dark text-center">Persianas</h1>
+            <p class="text-dark text-justify">Uns dos modelos mais tradicionais no Brasil e nos EUA as Persianas hoje deixaram de ser apenas um adereço     com o intuíto de reduzir a luminosidade do ambiente. Com a nossa linha você terá a chance de além do conforto de controlar a luz do seu     ambiente, terá também ter isso com muito estilo.</p>
+        </div>
+
+        <!-- Persianas -->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm mr-3">
+                    
+                    <div class="card" style="width:20rem;">
+                        <img src="https://www.amorimcortinas.com.br/imagens/produtos-persianas/persiana-vertical.jpg" alt="Cortina Rolo Amorim" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Persiana Vertical</h5>
+                            <p class="card-text">As persianas verticais são práticas e versáteis e são os modelos mais tradicionais do mercado.</p>
+                            <a href="#" class="btn text-white font-weight-bold">Saiba mais</a>
+                        </div>
+                    </div>
+
+                </div>
+    
+                <div class="col-sm mr-3">
+                    
+                    <div class="card" style="width:20rem;">
+                        <img src="https://www.amorimcortinas.com.br/imagens/produtos-persianas/persiana-sublime.jpg" alt="Cortina Rolo Amorim" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Persiana Sublime</h5>
+                            <p class="card-text">A persiana Sublime é ideal para grandes janelas. Seu estilo é próximo ao formato das cortinas tradicionais.</p>
+                            <a href="#" class="btn text-white font-weight-bold">Saiba mais</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-sm mr-3">
+                    
+                    <div class="card" style="width:20rem;">
+                        <img src="https://www.amorimcortinas.com.br/imagens/produtos-persianas/persiana-horizontal-50-mm-madeira.jpg" alt="Cortina Rolo Amorim" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Persiana Horizontal Madeira</h5>
+                            <p class="card-text">A persiana de Madeira permite controle da luminosidade, mantendo a privacidade com simples movimentos.</p>
+                            <a href="#" class="btn text-white font-weight-bold">Saiba mais</a>
+                        </div>
+                    </div>                    
+
+                </div>              
+                
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer class="container-fluid mt-3">
+        <div class="container">
+            <h5 class="text-center text-white font-weight-bold">Desenvolvido por Rodrigo Costa</h5>
+        </div>
+    </footer>    
         <!--
 
         <div class="row mt-5">
