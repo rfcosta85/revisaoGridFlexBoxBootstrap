@@ -19,6 +19,11 @@ header
     border-radius: 20px;
 }
 
+.height-pictures 
+{
+    height: 85vh;
+}
+
 .btn 
 {
     background-color: var(--principal-bg-color);
@@ -27,4 +32,25 @@ header
 footer 
 {
     background-color: var(--principal-bg-color);
+}
+
+a:hover 
+{
+    text-decoration:none;
+}
+
+@media(max-width: 767px)
+{
+    .height-pictures 
+    {
+        height: 40vh;
+         
+    }    
+
+    .logo 
+    {
+        width: 60%;
+    }  
+    
+    
 }
