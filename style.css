@@ -50,7 +50,9 @@ a:hover
     .logo 
     {
         width: 60%;
-    }  
+    }
+    
+    .fas {color: white;}
     
     
 }
