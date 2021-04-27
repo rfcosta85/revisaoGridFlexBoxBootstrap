@@ -39,6 +39,18 @@ a:hover
     text-decoration:none;
 }
 
+.bemVindo, .cortinas 
+{
+    color: var(--principal-bg-color);
+}
+
+.sobre 
+{
+    font-size: 1.2em;
+}
+
+.instagram {width: 5%;}
+
 @media(max-width: 767px)
 {
     .height-pictures 
