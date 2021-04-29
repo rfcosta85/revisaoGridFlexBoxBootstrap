@@ -42,14 +42,20 @@ a:hover
 .bemVindo, .cortinas 
 {
     color: var(--principal-bg-color);
+    
+}
+
+.about 
+{
+    margin-top: -10%;
 }
 
 .sobre 
 {
     font-size: 1.2em;
+    
 }
 
-.instagram {width: 5%;}
 
 @media(max-width: 767px)
 {
