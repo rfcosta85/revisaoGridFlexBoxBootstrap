@@ -3,10 +3,16 @@
     --principal-bg-color: #FE9DA6;
 }
 
+html 
+{
+    scroll-behavior: smooth;
+}
+
 body 
 {
     margin: 0;
-    padding: 0;    
+    padding: 0; 
+    overflow-x: hidden;  
 }
 
 header 
@@ -32,7 +38,10 @@ header
 footer 
 {
     background-color: var(--principal-bg-color);
+    
 }
+
+
 
 a:hover 
 {
@@ -55,6 +64,7 @@ a:hover
     font-size: 1.2em;
     
 }
+
 
 
 @media(max-width: 767px)
