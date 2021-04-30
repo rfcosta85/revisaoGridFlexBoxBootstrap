@@ -24,3 +24,9 @@ main h1
 {
     font-size: 1.2em;
 }
+
+.card-header 
+{
+    background-color: var(--principal-bg-color);
+    color: white;
+}
