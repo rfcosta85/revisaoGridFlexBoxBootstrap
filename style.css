@@ -6,6 +6,7 @@
 html 
 {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body 
@@ -33,6 +34,11 @@ header
 .btn 
 {
     background-color: var(--principal-bg-color);
+}
+
+.btn:hover 
+{
+    -webkit-transform: scale(1.04);
 }
 
 footer 
@@ -65,7 +71,21 @@ a:hover
     
 }
 
+#navbarCollapse a:hover 
+{
+    -webkit-transform: scale(1.04);
+}
 
+.home-button 
+{
+    color: var(--principal-bg-color);    
+}
+
+.home-button:hover 
+{
+    -webkit-transform: scale(1.04);
+    color: var(--principal-bg-color);    
+}
 
 @media(max-width: 767px)
 {
@@ -80,7 +100,7 @@ a:hover
         width: 60%;
     }
     
-    .fas {color: white;}
+    .fas {color: white;}   
     
     
 }
