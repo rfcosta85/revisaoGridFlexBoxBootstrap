@@ -102,5 +102,18 @@ a:hover
     
     .fas {color: white;}   
     
-    
+    h1, .bemVindo 
+    {
+        font-size: 1.6em;
+    }
+
+    h4
+    {
+        font-size: 1.2em;
+    }
+
+    .sobre 
+    {
+        font-size: 1em;
+    }
 }
