@@ -36,3 +36,40 @@ main h1
     color: var(--principal-bg-color);
 }
 
+@media(max-width: 767px) 
+{
+    .logo-instagram 
+    {
+        margin-top: 30%;
+        margin-bottom: 15%;
+    }
+
+    h1 
+    {
+        font-size: 1.6em;
+    }
+
+    h4 
+    {
+        font-size: 1.2em;
+    }
+
+    .rolo-txt 
+    {
+        font-size: 1em;
+    }
+
+    .hour-text
+    {
+        font-size: 1em;
+    }
+    
+}
+
+@media(max-width:800px) 
+{
+    .hour-text
+    {
+        font-size: 0.8em;
+    }
+}
