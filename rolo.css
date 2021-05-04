@@ -30,3 +30,9 @@ main h1
     background-color: var(--principal-bg-color);
     color: white;
 }
+
+.media-title 
+{
+    color: var(--principal-bg-color);
+}
+
